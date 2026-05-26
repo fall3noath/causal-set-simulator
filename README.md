@@ -124,14 +124,13 @@ The simulator computes longest directed paths through the reduced graph to estim
 
 ## Curved Spacetime Support
 
-The framework includes a modular spacetime abstraction system.
+The framework includes a modular spacetime abstraction system with preliminary support for both flat and curved geometries.
 
 Current implementations include:
-
 - Minkowski spacetime
 - Schwarzschild spacetime
 
-This allows the simulator to model both flat and curved causal structures.
+This architecture allows different spacetime metrics to be swapped into the causal graph construction pipeline.
 
 
 ---
