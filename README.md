@@ -14,33 +14,33 @@ This project simulates spacetime as a discrete causal structure rather than a co
 
 Instead of treating spacetime as infinitely smooth, the simulator models spacetime as a finite set of events connected by causal relationships. These relationships form a directed acyclic graph that approximates Lorentzian geometry.
 
-The project combines ideas from:
-
-- causal set theory
-- general relativity
-- graph theory
-- discrete geometry
-- computational physics
-
-The central idea behind causal set theory is:
-
-> spacetime geometry may emerge purely from causal order and discreteness.
+The core idea from causal set theory is that spacetime geometry can emerge purely from:
+- causal order
+- discreteness
 
 This repository attempts to explore that idea computationally.
 
 ---
 
-## Features
+# Features
 
+## Causal Structure
 - Poisson spacetime sprinkling
 - Relativistic causal relation detection
-- Directed acyclic causal graph construction
+- Directed acyclic graph construction
 - Transitive reduction
-- Geodesic approximation through longest chains
-- Dimension estimation
-- Curved spacetime support
+
+## Emergent Geometry
+- Geodesic approximation via longest chains
+- Dimension estimation from chain scaling behavior
+
+## Spacetime Models
+- Minkowski spacetime (special relativity)
+- Schwarzschild spacetime (curved geometry support)
+
+## Tools
+- Modular spacetime abstraction layer
 - Interactive visualization
-- Modular spacetime abstraction system
 
 ---
 
@@ -48,39 +48,19 @@ This repository attempts to explore that idea computationally.
 
 ### Minkowski Spacetime
 
-In special relativity, spacetime intervals are described by the Minkowski metric:
+The causal structure is determined using the Minkowski metric:
 
 $$
 ds^2 = -dt^2 + dx^2
 $$
 
-Two events are causally related if:
+Two events A and B are causally connected if:
 
 $$
-(t_B - t_A)^2 - (x_B - x_A)^2 \geq 0
+(t_B - t_A)^2 - (x_B - x_A)^2 \ge 0, \quad t_B > t_A
 $$
 
-with:
-
-$$
-t_B > t_A
-$$
-
-This determines whether information or influence can propagate between events without exceeding the speed of light.
-
-These interval relations define the causal structure used to construct the graph.
-
----
-
-## Causal Set Theory
-
-In causal set theory:
-
-- events become graph nodes
-- causal relationships become directed edges
-- geometry emerges from graph structure
-
-The resulting graph approximates spacetime geometry at large scales.
+This defines the light-cone structure used to construct the causal graph.
 
 ---
 
@@ -103,36 +83,25 @@ dimension estimation
         ↓
 interactive visualization
 ```
+---
+
+# Causal Set Interpretation
+
+- events → nodes  
+- causal relations → edges  
+- geometry → emergent property of the graph  
+
+Large-scale spacetime structure is recovered statistically from discrete order.
 
 ---
+
+Analysis
 
 ## Geodesic Approximation
-
-Longest chains within the causal graph approximate timelike geodesics.
-
-The simulator computes longest directed paths through the reduced graph to estimate discrete worldlines and proper-time maximizing trajectories.
-
----
+Longest directed paths in the DAG approximate timelike geodesics. These represent maximal proper-time chains through the discrete spacetime.
 
 ## Dimension Estimation
-
-Longest chains within the causal graph approximate timelike geodesics.
-
-The simulator computes longest directed paths through the reduced graph to estimate discrete worldlines and proper-time maximizing trajectories.
-
----
-
-## Curved Spacetime Support
-
-The framework includes a modular spacetime abstraction system with preliminary support for both flat and curved geometries.
-
-Current implementations include:
-- Minkowski spacetime
-- Schwarzschild spacetime
-
-This architecture allows different spacetime metrics to be swapped into the causal graph construction pipeline.
-
-
+Effective spacetime dimension is estimated from scaling behavior of longest chains under causal sprinkling density.
 ---
 
 ## Installation
