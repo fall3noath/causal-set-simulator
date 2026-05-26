@@ -35,7 +35,7 @@ pip3 install -r requirements.txt
 
 ## Run
 
-python examples/minkowski_demo.py
+PYTHONPATH=. python3 examples/minkowski_demo.py
 
 ## Future Goals
 
