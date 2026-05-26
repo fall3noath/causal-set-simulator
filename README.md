@@ -44,6 +44,14 @@ This repository attempts to explore that idea computationally.
 
 ---
 
+# Causal Set Interpretation
+
+- events → nodes  
+- causal relations → edges  
+- geometry → emergent property of the graph  
+
+Large-scale spacetime structure is recovered statistically from discrete order.
+
 ## Physics Background
 
 ### Minkowski Spacetime
@@ -85,24 +93,9 @@ interactive visualization
 ```
 ---
 
-# Causal Set Interpretation
-
-- events → nodes  
-- causal relations → edges  
-- geometry → emergent property of the graph  
-
-Large-scale spacetime structure is recovered statistically from discrete order.
 
 ---
 
-Analysis
-
-## Geodesic Approximation
-Longest directed paths in the DAG approximate timelike geodesics. These represent maximal proper-time chains through the discrete spacetime.
-
-## Dimension Estimation
-Effective spacetime dimension is estimated from scaling behavior of longest chains under causal sprinkling density.
----
 
 ## Installation
 
