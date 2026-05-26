@@ -2,6 +2,8 @@
 
 A computational physics project exploring discrete spacetime geometry through causal set theory.
 
+![Causal Set Visualization](assets/causalset_demo.png)
+
 ## Features
 
 - Poisson spacetime sprinkling
@@ -36,11 +38,3 @@ pip3 install -r requirements.txt
 ## Run
 
 PYTHONPATH=. python3 examples/minkowski_demo.py
-
-## Future Goals
-
-- Kruskal coordinates
-- Penrose compactification
-- GPU acceleration
-- Higher-dimensional spacetimes
-- Research-grade dimension estimators
