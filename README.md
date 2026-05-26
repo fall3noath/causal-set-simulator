@@ -20,7 +20,7 @@ This repository attempts to explore that idea computationally.
 
 ---
 
-# Features
+## Features
 
 ### Causal Structure
 - Poisson spacetime sprinkling
@@ -42,7 +42,7 @@ This repository attempts to explore that idea computationally.
 
 ---
 
-# Causal Set Interpretation
+## Causal Set Interpretation
 
 - events → nodes  
 - causal relations → edges  
