@@ -17,15 +17,15 @@ A computational physics project exploring discrete spacetime geometry through ca
 
 In 1+1 dimensional Minkowski spacetime:
 
-ds² = -dt² + dx²
+$ds² = -dt² + dx²$
 
 Two events are causally related if:
 
-(t_B - t_A)^2 - (x_B - x_A)^2 >= 0
+$(t_B - t_A)^2 - (x_B - x_A)^2 >= 0$
 
 with:
 
-t_B > t_A
+$t_B > t_A$
 
 The resulting directed graph approximates spacetime causal structure.
 
