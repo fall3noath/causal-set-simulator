@@ -14,34 +14,19 @@ This project simulates spacetime as a discrete causal structure rather than a co
 
 Instead of treating spacetime as infinitely smooth, the simulator models spacetime as a finite set of events connected by causal relationships. These relationships form a directed acyclic graph that approximates Lorentzian geometry.
 
-The project explores ideas from:
+The project combines ideas from:
 
 - causal set theory
 - general relativity
-- discrete geometry
 - graph theory
-- computational spacetime physics
+- discrete geometry
+- computational physics
 
-The core philosophical idea behind causal set theory is:
+The central idea behind causal set theory is:
 
 > spacetime geometry may emerge purely from causal order and discreteness.
 
 This repository attempts to explore that idea computationally.
-
----
-
-## Example Visualization
-
-The simulator generates discrete spacetime events, computes relativistic causal structure, extracts geodesics, and visualizes the resulting causal network interactively.
-
-Features of the visualization include:
-
-- causal edges
-- longest-chain geodesics
-- light cone structure
-- dimension estimation
-- interactive spacetime exploration
-- dark sci-fi dashboard interface
 
 ---
 
@@ -83,20 +68,13 @@ $$
 
 This determines whether information or influence can propagate between events without exceeding the speed of light.
 
-The simulator uses these interval relations to construct a causal graph.
+These interval relations define the causal structure used to construct the graph.
 
 ---
 
 ## Causal Set Theory
 
-Causal set theory proposes that spacetime may fundamentally consist of:
-
-- discrete events
-- causal ordering relations
-
-rather than continuous coordinates.
-
-In this framework:
+In causal set theory:
 
 - events become graph nodes
 - causal relationships become directed edges
@@ -107,8 +85,6 @@ The resulting graph approximates spacetime geometry at large scales.
 ---
 
 ## Computational Pipeline
-
-The simulator follows this pipeline:
 
 ```text
 random spacetime events
@@ -132,21 +108,17 @@ interactive visualization
 
 ## Geodesic Approximation
 
-In causal set theory, longest chains within the causal graph approximate timelike geodesics.
+Longest chains within the causal graph approximate timelike geodesics.
 
-This project computes longest directed paths through the reduced causal graph to estimate discrete worldlines and proper-time maximizing trajectories.
+The simulator computes longest directed paths through the reduced graph to estimate discrete worldlines and proper-time maximizing trajectories.
 
 ---
 
 ## Dimension Estimation
 
-The simulator includes a simplified dimension estimator based on causal relation density.
+Longest chains within the causal graph approximate timelike geodesics.
 
-The goal is to estimate effective spacetime dimension using graph structure alone.
-
-This explores one of the central questions of causal set theory:
-
-> Can geometry emerge from causal order?
+The simulator computes longest directed paths through the reduced graph to estimate discrete worldlines and proper-time maximizing trajectories.
 
 ---
 
@@ -161,37 +133,6 @@ Current implementations include:
 
 This allows the simulator to model both flat and curved causal structures.
 
-Future planned geometries include:
-
-- Kruskal-Szekeres coordinates
-- de Sitter spacetime
-- Penrose compactifications
-
----
-
-## Repository Structure
-
-```text
-causal-set-simulator/
-│
-├── causalset/
-│   ├── events.py
-│   ├── spacetime.py
-│   ├── minkowski.py
-│   ├── schwarzschild.py
-│   ├── graph.py
-│   ├── geodesics.py
-│   ├── reduction.py
-│   ├── dimension.py
-│   ├── visualization.py
-│   └── interactive.py
-│
-├── examples/
-│   └── minkowski_demo.py
-│
-├── requirements.txt
-└── README.md
-```
 
 ---
 
@@ -212,42 +153,3 @@ From the repository root:
 ```bash
 PYTHONPATH=. python3 examples/minkowski_demo.py
 ```
-
----
-
-## Technologies Used
-
-- Python
-- NumPy
-- NetworkX
-- Plotly
-- Matplotlib
-
----
-
-## Future Goals
-
-- Penrose diagram visualization
-- Kruskal coordinate support
-- GPU acceleration
-- Large-scale causal set generation
-- WebGL visualization
-- Research-grade dimension estimators
-- Higher-dimensional spacetime simulation
-
----
-
-## Why This Project Is Interesting
-
-Most physics simulations numerically solve equations on continuous spacetime backgrounds.
-
-This project instead attempts to reconstruct spacetime geometry itself from causal structure alone.
-
-That makes it fundamentally a problem in:
-
-- discrete geometry
-- graph theory
-- emergent structure
-- computational relativity
-
-rather than conventional numerical physics.
