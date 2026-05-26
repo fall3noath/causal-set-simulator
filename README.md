@@ -22,21 +22,21 @@ This repository attempts to explore that idea computationally.
 
 # Features
 
-## Causal Structure
+### Causal Structure
 - Poisson spacetime sprinkling
 - Relativistic causal relation detection
 - Directed acyclic graph construction
 - Transitive reduction
 
-## Emergent Geometry
+### Emergent Geometry
 - Geodesic approximation via longest chains
 - Dimension estimation from chain scaling behavior
 
-## Spacetime Models
+### Spacetime Models
 - Minkowski spacetime (special relativity)
 - Schwarzschild spacetime (curved geometry support)
 
-## Tools
+### Tools
 - Modular spacetime abstraction layer
 - Interactive visualization
 
