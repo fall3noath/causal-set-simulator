@@ -2,7 +2,7 @@
 
 A computational physics project exploring discrete spacetime geometry through causal set theory.
 
-![Causal Set Visualization](assets/causalset_demo.png)
+![Causal Set Visualization](examples/demo_screenshot.png)
 
 ## Features
 
