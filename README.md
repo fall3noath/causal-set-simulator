@@ -6,8 +6,6 @@ A computational physics project exploring discrete spacetime geometry through ca
   <img src="examples/demo_screenshot.png" width="1200">
 </p>
 
----
-
 ## Overview
 
 This project simulates spacetime as a discrete causal structure rather than a continuous geometric manifold.
