@@ -7,10 +7,6 @@ A computational physics project exploring discrete spacetime geometry through ca
 </p>
 
 <p align="center">
-  <img src="examples/demo_screenshot_3.png" width="1200">
-</p>
-
-<p align="center">
   <img src="examples/demo_screenshot_2.png" width="1200">
 </p>
 
