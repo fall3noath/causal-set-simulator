@@ -88,19 +88,29 @@ interactive visualization
 
 ---
 
-
 ## Installation
 
-Install dependencies:
+Install the required dependencies:
 
 ```bash
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
+
+---
 
 ## Run
 
-From the repository root:
+Run the simulator from the repository root.
+
+### macOS / Linux
 
 ```bash
 PYTHONPATH=. python3 examples/minkowski_demo.py
+```
+
+### Windows (PowerShell)
+
+```powershell
+$env:PYTHONPATH="."
+python examples/minkowski_demo.py
 ```
