@@ -108,7 +108,7 @@ Run the simulator from the repository root.
 PYTHONPATH=. python3 examples/minkowski_demo.py
 ```
 
-### Windows (PowerShell)
+### Windows
 
 ```powershell
 $env:PYTHONPATH="."
