@@ -14,7 +14,7 @@ A computational physics project exploring discrete spacetime geometry through ca
 
 This project simulates spacetime as a discrete causal structure rather than a continuous geometric manifold.
 
-The core idea from causal set theory is that spacetime geometry can emerge purely from causal order and discreteness. This project explores that idea computationally by modeling spacetime as a finite set of events connected through causal relationships determined by relativistic constraints. Random events in space and time are generated and connected only if they could realistically influence each other, forming a directed acyclic graph of causal structure that approximates Lorentzian geometry. The resulting graph is then analyzed to study emergent geometric properties, such as approximate geodesic paths and effective dimensional behavior.
+The core idea from causal set theory is that spacetime geometry can emerge purely from causal order and discreteness. This project explores that idea computationally by modeling spacetime as a finite set of events connected through causal relationships determined by relativistic speed-of-light constraints. Random events in space and time are generated and connected only if they could realistically influence each other, forming a directed acyclic graph of causal structure that approximates Lorentzian geometry. The resulting graph is then analyzed to study emergent geometric properties, such as approximate geodesic paths and effective dimensional behavior.
 
 ---
 
