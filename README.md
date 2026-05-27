@@ -90,8 +90,6 @@ interactive visualization
 ---
 
 
----
-
 ## Installation
 
 Install the required dependencies:
@@ -100,7 +98,6 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
----
 
 ## Run
 
